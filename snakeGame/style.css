@@ -1,0 +1,30 @@
+body,html{
+ height: 100vh;
+ padding: 0;
+ margin: 0;
+ background-color: rgb(129, 138, 137);
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: center;
+ color: rgb(40, 6, 71);
+}
+canvas{
+ border: 1px solid rgb(0, 0, 0);
+}
+.head{
+ padding-top: 30px;
+ font-size: 30px;
+ font-weight: bolder;
+}
+#info{
+ font-size: 20px;
+ margin-bottom: 25px;
+}
+#score{
+ margin-top: 20px;
+font-size: 25px;
+font-weight: bolder;
+}
+#scoreval{
+ font-size: 25px;
+
+}

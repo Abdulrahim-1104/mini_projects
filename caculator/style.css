@@ -1,0 +1,72 @@
+body,html{
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: linear-gradient(45deg, #b3a1a1, #ffeb3b, #ffeb3b, #b3a1a1);
+ background-attachment: fixed; 
+ }
+h1{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color: #741717;
+ position:absolute;
+ top: 10px;
+}
+.calc{
+ border: 3px solid rgb(15, 5, 102);
+ border-radius: 25px;
+ width: 300px;
+ height: 300px ;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ background: linear-gradient(45deg, #7a7a7a, #726d6d);
+ align-items: center;
+ column-gap: 30px;
+ padding: 20px;
+}
+.calc div{
+ border: 1px solid black;
+ border-radius: 10px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 0px;
+ background-color: #eee6df;
+ box-shadow: 5px 5px 20px rgb(35, 22, 71);
+ font-size: 20px;
+ font-weight: bolder;
+ cursor: pointer;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.calc .input{
+  grid-column: span 4;
+  height: 50px;
+  margin-bottom: 30px;
+  border: none;
+  box-shadow:none;
+ }
+.input input{
+ width: 100%;
+ height: 100%;
+ font-size: 20px;
+ background-color:#ece5df;
+ border-radius: 8px;
+ padding-left: 10px;
+ border: 3px solid rgb(31, 0, 87);
+}
+.calc .dot{
+font-size: 10px;
+}
+.input input:focus{
+ outline: none;
+}
+.calc .special{
+ background-color: rgb(0, 255, 34);
+ border: 2px solid rgb(121, 3, 3);
+ box-shadow: 5px 5px 20px rgb(212, 62, 2);
+ border-radius: 30px;
+ height: 47px;
+}
